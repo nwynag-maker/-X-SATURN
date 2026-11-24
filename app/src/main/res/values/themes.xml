@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XS" />
+    <style name="Theme.XSaturn" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/xs_red</item>
+        <item name="colorOnPrimary">@color/xs_white</item>
+        <item name="colorPrimaryContainer">@color/xs_red_dark</item>
+        <item name="colorOnPrimaryContainer">@color/xs_white</item>
+        <item name="colorSecondary">@color/xs_red</item>
+        <item name="colorOnSecondary">@color/xs_white</item>
+        <item name="colorSurface">@color/xs_surface</item>
+        <item name="colorOnSurface">@color/xs_white</item>
+        <item name="colorSurfaceVariant">@color/xs_surface_high</item>
+        <item name="colorOnSurfaceVariant">@color/xs_muted</item>
+        <item name="colorSurfaceContainerHigh">@color/xs_surface_high</item>
+        <item name="colorOutline">@color/xs_outline</item>
+        <item name="android:colorBackground">@color/xs_black</item>
+        <item name="android:windowBackground">@color/xs_black</item>
+        <item name="android:statusBarColor">@color/xs_bar</item>
+        <item name="android:navigationBarColor">@color/xs_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.XSaturn.Splash" parent="Theme.XSaturn">
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+    <style name="XS.SettingTitle">
+        <item name="android:textColor">@color/xs_red</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="XS.SettingDesc">
+        <item name="android:textColor">@color/xs_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="XS.MenuRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="XS.MenuIcon">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="XS.MenuLabel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textColor">@color/xs_white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="XS.NavLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textColor">@color/xs_muted</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>

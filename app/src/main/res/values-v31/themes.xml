@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- أندرويد 12+: شاشة النظام تكون سوداء بلا أيقونة، فيظهر الفيديو مباشرة بعدها -->
+    <style name="Theme.XSaturn.Splash" parent="Theme.XSaturn">
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowSplashScreenBackground">#000000</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_empty</item>
+    </style>
+</resources>

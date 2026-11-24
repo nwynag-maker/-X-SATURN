@@ -1,0 +1,35 @@
+! محددات CSS لإخفاء المساحات الإعلانية (محدد واحد في كل سطر، والتعليقات تبدأ بعلامة !)
+ins.adsbygoogle
+.adsbygoogle
+[id^="google_ads_"]
+[id^="div-gpt-ad"]
+[id^="gpt-ad"]
+[data-ad-slot]
+[data-ad-client]
+[data-google-query-id]
+iframe[src*="doubleclick.net"]
+iframe[src*="googlesyndication.com"]
+iframe[src*="adnxs.com"]
+iframe[src*="taboola.com"]
+iframe[src*="outbrain.com"]
+a[href*="doubleclick.net/"]
+a[href*="googleadservices.com/"]
+div[id^="taboola-"]
+div[id^="outbrain"]
+.OUTBRAIN
+.ad-banner
+.ad-container
+.ad-wrapper
+.ad-slot
+.ad-unit
+.advert
+.advertisement
+.advertisement-banner
+.banner-ad
+.banner_ad
+.sponsored-ad
+.sticky-ad
+[aria-label="advertisement" i]
+#ad-banner
+#ad_banner
+#advertisement

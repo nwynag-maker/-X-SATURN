@@ -1,0 +1,16 @@
+<header class="top">
+  <a href="/"><img class="mini" src="/logo.png" alt="X SATURN" width="38" height="38"></a>
+  <form class="sbox small" action="/search" method="get">
+    <input type="search" name="q" value="{{q}}" dir="auto" autocomplete="off">
+    <button type="submit">بحث</button>
+  </form>
+</header>
+<div class="wrap">
+  <div class="err">
+    <h2>{{heading}}</h2>
+    <div>{{message}}</div>
+    <code>{{detail}}</code>
+    <a class="btn" href="{{retry}}">إعادة المحاولة</a>
+    <a class="btn ghost" href="{{external}}" rel="noopener noreferrer">البحث في DuckDuckGo</a>
+  </div>
+</div>

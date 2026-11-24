@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_menu"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/menuBack"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_btn"
+                android:contentDescription="@string/cd_back"
+                android:src="@drawable/ic_back"
+                app:tint="@color/xs_white" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/menuForward"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_btn"
+                android:contentDescription="@string/cd_forward"
+                android:src="@drawable/ic_forward"
+                app:tint="@color/xs_white" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/menuReload"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_btn"
+                android:contentDescription="@string/cd_reload"
+                android:src="@drawable/ic_reload"
+                app:tint="@color/xs_white" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/menuShare"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_circle_btn"
+                android:contentDescription="@string/menu_share"
+                android:src="@drawable/ic_share"
+                app:tint="@color/xs_white" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/xs_outline" />
+
+    <LinearLayout
+        android:id="@+id/menuNewTab"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_add"
+            app:tint="@color/xs_white" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_new_tab" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuHome"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_home"
+            app:tint="@color/xs_white" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuShield"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_shield"
+            app:tint="@color/xs_red" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_shield" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuSecurity"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_shield"
+            app:tint="@color/xs_white" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_security" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuDesktop"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_desktop"
+            app:tint="@color/xs_white" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_desktop" />
+
+        <ImageView
+            android:id="@+id/menuDesktopCheck"
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            app:tint="@color/xs_red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuCopy"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_copy"
+            app:tint="@color/xs_white" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_copy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuSettings"
+        style="@style/XS.MenuRow">
+
+        <ImageView
+            style="@style/XS.MenuIcon"
+            android:src="@drawable/ic_settings"
+            app:tint="@color/xs_white" />
+
+        <TextView
+            style="@style/XS.MenuLabel"
+            android:text="@string/menu_settings" />
+    </LinearLayout>
+</LinearLayout>

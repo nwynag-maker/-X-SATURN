@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">X SATURN</string>
+
+    <!-- المتصفح -->
+    <string name="url_hint">ابحث أو اكتب عنوان الموقع</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_forward">تقدم</string>
+    <string name="cd_reload">إعادة التحميل</string>
+    <string name="cd_stop">إيقاف التحميل</string>
+    <string name="cd_home">الصفحة الرئيسية</string>
+    <string name="cd_settings">الإعدادات</string>
+    <string name="cd_shield">حالة الحماية</string>
+    <string name="error_title">تعذّر تحميل الصفحة</string>
+    <string name="error_generic">تعذّر الوصول إلى الموقع. تحقق من اتصالك بالإنترنت أو من صحة العنوان.</string>
+    <string name="error_ssl">شهادة الأمان لهذا الموقع غير صالحة، لذلك تم إيقاف الاتصال حفاظاً على أمانك.</string>
+    <string name="error_cleartext">هذا الموقع يستخدم اتصالاً غير مشفّر (HTTP) وقد تم منعه. جرّب العنوان بصيغة https://</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="redirect_blocked">تم منع تحويل تلقائي إلى %1$s</string>
+    <string name="allow">السماح</string>
+    <string name="external_blocked">تم منع محاولة فتح تطبيق خارجي</string>
+    <string name="permission_denied">تم رفض طلب صلاحية من الموقع</string>
+    <string name="downloads_unsupported">التنزيل غير مدعوم في هذه النسخة</string>
+    <string name="ok">حسناً</string>
+    <string name="cancel">إلغاء</string>
+
+    <!-- نافذة الدرع -->
+    <string name="shield_title">حماية X SATURN</string>
+    <string name="shield_state_on">الحماية مفعّلة لهذا الموقع</string>
+    <string name="shield_state_site_off">الحماية معطّلة لهذا الموقع</string>
+    <string name="shield_state_global_off">الحماية معطّلة بالكامل من الإعدادات</string>
+    <string name="shield_blocked_total">الإجمالي منذ البداية: %1$s</string>
+    <string name="open_security">لوحة X SATURN SECURITY</string>
+    <string name="shield_blocked_page">العناصر المحجوبة في هذه الصفحة: %1$s</string>
+    <string name="shield_disable_site">تعطيل الحماية لهذا الموقع</string>
+    <string name="shield_enable_site">تفعيل الحماية لهذا الموقع</string>
+    <string name="close">إغلاق</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">إعدادات الحماية</string>
+    <string name="section_protection">الحماية</string>
+    <string name="sw_protection">تفعيل الحماية</string>
+    <string name="sw_protection_desc">المفتاح الرئيسي لكل ميزات الحجب. عند إيقافه تعمل الصفحات دون أي حجب.</string>
+    <string name="sw_popups">حجب النوافذ المنبثقة</string>
+
+    <string name="sw_strict">الوضع الصارم</string>
+    <string name="sw_strict_desc">يحجب مسارات الإعلانات حتى من نطاق الصفحة نفسها. أقوى حماية وقد يؤثر على بعض المواقع.</string>
+    <string name="sw_popups_desc">تُمنع النوافذ التي تفتحها الصفحة دون نقرة منك.</string>
+    <string name="sw_redirects">منع التحويل التلقائي</string>
+    <string name="sw_redirects_desc">يُمنع الانتقال التلقائي إلى موقع آخر دون نقرة منك، مع إمكانية السماح به عند الحاجة.</string>
+    <string name="sw_trackers">تقليل التتبع</string>
+    <string name="sw_trackers_desc">حجب نطاقات التتبع المعروفة وملفات تعريف الارتباط من أطراف ثالثة.</string>
+    <string name="sw_hide">إخفاء عناصر الإعلانات</string>
+    <string name="sw_hide_desc">إخفاء اللافتات والمساحات الإعلانية الفارغة بعد التحميل.</string>
+    <string name="sw_overlays">الحماية من الطبقات الخادعة</string>
+    <string name="sw_overlays_desc">تعطيل الطبقات الشفافة التي تغطي الصفحة وتسرق النقرات.</string>
+    <string name="sw_safe">التصفح الآمن من Google</string>
+    <string name="sw_safe_desc">يحميك من مواقع التصيّد، لكنه يرسل بصمات مجزّأة للروابط إلى Google. مغلق افتراضياً لأنك طلبت عدم إرسال بيانات التصفح.</string>
+    <string name="reset_stats">تصفير العدّاد</string>
+    <string name="filters_info">نطاقات إعلانات: %1$s\nنطاقات تتبع: %2$s\nأنماط روابط: %3$s\nقواعد إخفاء عناصر: %4$s</string>
+    <string name="import_filters">استيراد قائمة فلاتر من الجهاز</string>
+    <string name="clear_imported">حذف القوائم المستوردة</string>
+    <string name="import_done">تم استيراد القائمة وتحديث الفلاتر</string>
+    <string name="import_failed">تعذّر استيراد الملف</string>
+    <string name="imported_cleared">تم حذف القوائم المستوردة</string>
+
+    <string name="section_sites">المواقع</string>
+    <string name="allowed_sites">المواقع المسموح لها بالإعلانات</string>
+    <string name="allowed_sites_empty">لا توجد مواقع مستثناة من الحماية.</string>
+    <string name="allowed_sites_remove_title">حدد المواقع لإعادة الحماية إليها</string>
+    <string name="remove">إزالة</string>
+    <string name="clear_data">مسح الكوكيز وبيانات المواقع</string>
+    <string name="clear_data_done">تم مسح بيانات التصفح</string>
+
+    <!-- البحث -->
+    <string name="search_title">X SATURN SEARCH</string>
+    <string name="search_no_results">لم يُعثر على نتائج لهذا البحث.</string>
+    <string name="search_hidden_note">تم إخفاء %1$d نتيجة غير آمنة (برمجيات خبيثة أو احتيال أو محتوى إباحي).</string>
+    <string name="search_prev">السابق</string>
+    <string name="search_next">التالي</string>
+    <string name="search_error_heading">تعذّر الحصول على النتائج</string>
+    <string name="search_error_msg">لم يستجب أي مزوّد بحث. تحقق من الاتصال أو جرّب مزوّداً آخر من الإعدادات.</string>
+
+    <!-- صفحة التحذير -->
+    <string name="block_heading_malware">تم حظر موقع ضار</string>
+    <string name="block_heading_phishing">تم حظر موقع احتيالي</string>
+    <string name="block_heading_adult">تم حظر موقع محتوى للبالغين</string>
+    <string name="block_msg_malware">هذا الموقع مدرج بأنه ينشر برمجيات خبيثة وقد يضر بجهازك.</string>
+    <string name="block_msg_phishing">قد يحاول هذا الموقع سرقة كلمات المرور أو بياناتك المالية بانتحال جهة معروفة.</string>
+    <string name="block_msg_adult">حجبت X SATURN هذا الموقع لأن حجب المحتوى الإباحي مفعّل.</string>
+    <string name="reason_listed">السبب: النطاق موجود في قوائم الحظر.</string>
+    <string name="reason_adult_name">السبب: اسم النطاق يدل على محتوى للبالغين.</string>
+    <string name="reason_userinfo">السبب: الرابط يخفي وجهته الحقيقية بوضع اسم موقع قبل علامة @.</string>
+    <string name="reason_homograph">السبب: الاسم يخلط حروفاً متشابهة من لغات مختلفة لانتحال موقع آخر.</string>
+    <string name="reason_lookalike">السبب: الاسم يقلّد علامة تجارية معروفة بتغيير بسيط في حروفه.</string>
+    <string name="reason_brand_subdomain">السبب: الرابط يضع اسم علامة معروفة في بدايته بينما النطاق الحقيقي مختلف.</string>
+    <string name="reason_brand_keywords">السبب: الرابط يجمع اسم علامة معروفة مع كلمات تسجيل دخول أو تحقق وهو ليس موقعها.</string>
+    <string name="reason_ip_login">السبب: صفحة تسجيل دخول على عنوان IP مباشر وليس على اسم موقع.</string>
+
+    <string name="reason_brand_freehost">السبب: اسم علامة تجارية على استضافة مجانية — نمط شائع في صفحات التصيّد.</string>
+    <string name="reason_payload">السبب: رابط يبدو أنه يقدّم ملفاً تنفيذياً من مصدر مشبوه.</string>
+    <!-- لوحة X SATURN SECURITY -->
+    <string name="security_title">X SATURN SECURITY</string>
+    <string name="security_open">لوحة X SATURN SECURITY</string>
+    <string name="security_on">الحماية تعمل</string>
+    <string name="security_off">الحماية متوقفة</string>
+    <string name="stat_total">إجمالي المحجوب</string>
+    <string name="stat_today">اليوم</string>
+    <string name="section_blocked_by_type">المحجوب حسب النوع</string>
+    <string name="section_week">آخر 7 أيام</string>
+    <string name="section_top">أكثر النطاقات حجباً</string>
+    <string name="section_recent">آخر النشاطات</string>
+    <string name="section_toggles">التحكم بالحماية</string>
+    <string name="section_lists">قوائم الحجب</string>
+    <string name="section_sites_data">المواقع المستثناة</string>
+    <string name="none_yet">لا شيء بعد</string>
+    <string name="cat_ad">إعلانات</string>
+    <string name="cat_tracker">متتبّعات</string>
+    <string name="cat_popup">نوافذ منبثقة</string>
+    <string name="cat_redirect">تحويلات تلقائية</string>
+    <string name="cat_hidden">عناصر وطبقات مخفية</string>
+    <string name="cat_malware">مواقع ضارة</string>
+    <string name="cat_phishing">مواقع احتيالية</string>
+    <string name="cat_adult">مواقع للبالغين</string>
+    <string name="sw_malware">حظر المواقع الضارة</string>
+    <string name="sw_malware_desc">يمنع فتح مواقع تنشر برمجيات خبيثة (من القوائم المحدَّثة).</string>
+    <string name="sw_phishing">حظر المواقع الاحتيالية</string>
+    <string name="sw_phishing_desc">قوائم التصيّد + كشف الروابط المنتحِلة والمقلِّدة لأسماء المواقع.</string>
+    <string name="sw_adult">حظر المواقع الإباحية</string>
+    <string name="sw_adult_desc">يمنع فتح هذه المواقع وتحويلاتك إليها، ويخفيها من نتائج البحث.</string>
+    <string name="sw_auto_update">تحديث القوائم أسبوعياً</string>
+    <string name="sw_auto_update_desc">تنزيل فقط من مصادر عامة، ولا يُرسل أي شيء عن تصفحك.</string>
+    <string name="lists_info">إعلانات: %1$s · تتبّع: %2$s · أنماط: %3$s · إخفاء: %4$s
+ضارة: %5$s · احتيال: %6$s · بالغين: %7$s</string>
+    <string name="lists_never">لم تُحدَّث القوائم من الإنترنت بعد. اضغط «تحديث الآن» لتفعيل الحماية الكاملة.</string>
+    <string name="lists_updated">آخر تحديث: %1$s</string>
+    <string name="update_now">تحديث القوائم الآن</string>
+    <string name="updating">جارٍ التحديث…</string>
+    <string name="update_done">اكتمل التحديث: نجح %1$d من %2$d</string>
+    <string name="security_limits">حدود الحماية: لا يوجد مانع إعلانات يحجب 100٪ من الإعلانات؛ الإعلانات المقدَّمة من نطاق الموقع نفسه أو داخل مشغّلات الفيديو قد تظهر. حظر الضار والاحتيال يعتمد على القوائم المحدَّثة وقواعد استدلالية، فلا يغني عن الحذر. إن تعطّل موقع ما فعطّل الحماية له من أيقونة الدرع.</string>
+
+    <!-- الإعدادات -->
+    <string name="section_search">محرك البحث</string>
+    <string name="search_info">X SATURN SEARCH يجلب نتائج حقيقية. الترتيب: Brave (إن أدخلت مفتاحاً) ثم SearXNG (إن أدخلت خادماً) ثم DuckDuckGo. استعلامك يُرسل إلى المزوّد المستخدم فقط.</string>
+    <string name="sw_safe_search">البحث الآمن</string>
+    <string name="sw_safe_search_desc">يطلب من المزوّد استبعاد النتائج الإباحية.</string>
+    <string name="brave_key">مفتاح Brave Search API</string>
+    <string name="searx_url">خادم SearXNG</string>
+    <string name="value_set">مضبوط</string>
+    <string name="value_unset">غير مضبوط</string>
+    <string name="test_search">اختبار البحث الآن</string>
+    <string name="testing">جارٍ الاختبار…</string>
+    <string name="test_ok">نجح: %1$s أعاد %2$d نتيجة خلال %3$.1f ثانية</string>
+    <string name="test_fail">فشل: %1$s</string>
+    <string name="enter_brave_key">الصق مفتاح الواجهة (اتركه فارغاً للحذف)</string>
+    <string name="enter_searx">https://مثال.com (اتركه فارغاً للحذف)</string>
+    <string name="searx_invalid">يجب أن يبدأ العنوان بـ https://</string>
+    <string name="save">حفظ</string>
+    <string name="section_privacy">الخصوصية</string>
+
+    <!-- الواجهة الجديدة -->
+    <string name="nav_back">رجوع</string>
+    <string name="nav_forward">تقدم</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_shield">الحماية</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="cd_menu">القائمة</string>
+    <string name="cd_logo">X SATURN</string>
+    <string name="menu_home">الصفحة الرئيسية</string>
+    <string name="menu_shield">حماية هذا الموقع</string>
+    <string name="menu_security">لوحة X SATURN SECURITY</string>
+    <string name="menu_desktop">نسخة سطح المكتب</string>
+    <string name="menu_copy">نسخ الرابط</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="link_copied">تم نسخ الرابط</string>
+    <string name="error_https_failed">هذا الموقع لا يدعم الاتصال المشفّر (HTTPS)، وقد حاول المتصفح ترقيته تلقائياً دون جدوى. يمكنك المتابعة عبر HTTP إن كنت تثق بالموقع، لكن بياناتك ستكون غير مشفّرة.</string>
+    <string name="http_continue">المتابعة عبر HTTP (غير آمن)</string>
+
+    <!-- التبويبات -->
+    <string name="nav_tabs">التبويبات</string>
+    <string name="cd_tabs">عرض التبويبات</string>
+    <string name="tabs_title">التبويبات (%1$d)</string>
+    <string name="new_tab">+ تبويب جديد</string>
+    <string name="menu_new_tab">تبويب جديد</string>
+    <string name="tab_default_title">تبويب جديد</string>
+    <string name="http_fallback_notice">رفض الموقع الاتصال المشفّر، تتم المتابعة عبر HTTP</string>
+    <string name="sw_confirm_nav">تأكيد الانتقال إلى موقع آخر</string>
+    <string name="sw_confirm_nav_desc">عند الضغط على رابط أو إعلان يقودك إلى موقع مختلف، يُسأل عن الانتقال أو البقاء في الصفحة الحالية. يحميك من الأزرار الخادعة التي تفتح إعلاناً.</string>
+    <string name="nav_confirm_title">الانتقال إلى موقع آخر</string>
+    <string name="nav_confirm_message">هذه الصفحة تريد نقلك إلى:\n%1$s\n\nهل تريد الانتقال أم البقاء هنا؟</string>
+    <string name="nav_go">انتقال</string>
+    <string name="nav_stay">البقاء هنا</string>
+    <string name="nav_go_trust">انتقال، ولا تسأل عن هذا الموقع</string>
+</resources>
